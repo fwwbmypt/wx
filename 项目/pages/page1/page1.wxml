@@ -1,0 +1,34 @@
+<view class='top'>
+  <button class='bu'>1</button>
+  <input class='in' placeholder='搜索' type='text'></input>
+  <button class='bu'>2</button>
+  <button class='bu'>3</button>
+</view>
+
+<scroll-view>
+  <swiper indicator-dots='{{true}}'>
+    <swiper-item wx:for="{{picture}}" wx:key="xxx">
+      <image class='img' src='{{item.imagePath}}'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='zfl'>
+    <view class='fl2'>
+      <button class='fl3'>分类1</button>
+      <button class='fl3'>分类2</button>
+      <button class='fl3'>分类3</button>
+    </view>
+    <view class='fl2'>
+      <button class='fl3'>分类4</button>
+      <button class='fl3'>分类5</button>
+      <button class='fl3'>分类6</button>
+    </view>
+  </view>
+
+  <view class='cc'>
+    <view bindtap='f' class='view1' wx:for="{{picture}}" wx:key='index'>
+      <image class='comImg' src='{{item.imagePath}}'></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</scroll-view>

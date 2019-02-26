@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/commodity/commodity"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "page1",
+        "pagePath": "pages/page1/page1",
+        "iconPath": "image/8.jpg"
+      },
+      {
+        "text": "page2",
+        "pagePath": "pages/page2/page2",
+        "iconPath": "image/8.jpg"
+      },
+      {
+        "text": "page3",
+        "pagePath": "pages/page3/page3",
+        "iconPath": "image/8.jpg"
+      },
+      {
+        "text": "page4",
+        "pagePath": "pages/page4/page4",
+        "iconPath": "image/8.jpg"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "电商平台",
+    "navigationBarBackgroundColor": "#F5F5DC",
+    "navigationBarTextStyle": "black"
+  }
+}

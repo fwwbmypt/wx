@@ -1,0 +1,24 @@
+.sw{
+  width: 100%;
+  height: 500rpx;
+}
+
+.img{
+  height: 500rpx;
+  width: 750rpx;
+}
+
+.v{
+  height: 10000rpx;
+}
+
+.v1{
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.bu{
+  height: 100rpx;
+  width: 250rpx;
+  display: inline-block;
+}

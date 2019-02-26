@@ -1,0 +1,12 @@
+Page({
+  data:{
+    display:[
+      {
+        imagePath:"/image/8.jpg"
+      },
+      {
+        imagePath:"/image/8.jpg"
+      }
+    ]
+  }
+})

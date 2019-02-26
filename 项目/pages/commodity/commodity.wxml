@@ -1,0 +1,24 @@
+<scroll-view class='v'>
+  
+  <swiper class='sw' indicator-dots='{{true}}'>
+    <swiper-item wx:for="{{display}}" wx:key="xxx">
+      <image class='img' src='{{item.imagePath}}'></image>
+    </swiper-item>
+  </swiper>
+  
+  <view>
+    <text style='display:block'>价格</text>
+    <text style='display:block'>名称</text>
+    <view style='background:gray;height:100rpx;weight:100%'>
+      <text>优惠</text>
+    </view>
+    <text>商品详情</text>
+    <image></image>
+  </view>
+  
+  <view class='v1'>
+    <button class='bu'>进店</button>
+    <button class='bu'>客服</button>
+    <button class='bu'>立即下单</button>
+  </view>
+</scroll-view>
